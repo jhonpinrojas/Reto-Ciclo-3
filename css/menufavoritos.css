@@ -97,4 +97,9 @@ tr:nth-child(odd) td{
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
+    
+}
+.botonregreso:hover{
+   
+    background-color: #2fc95b;
 }

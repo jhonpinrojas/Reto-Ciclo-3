@@ -1,0 +1,93 @@
+body {
+    height:665px;
+    background-color:#cac9c9;
+    background-image: url("../fotos/restaurante.png");
+    background-repeat: repeat-y;
+    background-size: 60rem;
+    
+  }
+ .text-center {text-align:right;} 
+
+ label {
+    text-align: right;
+    color: white;
+    display:block;
+    padding-left: 9 0px;
+    text-indent: -100px;
+}
+ 
+.containerinput {
+    text-align:left;
+    margin: auto;
+    font-size: 14pt;
+    display:flex;
+    flex-direction:column;
+    align-items:flex-end;
+    justify-content:center ;
+    width: 1100px;
+}
+.container2 {
+    margin: auto;
+    display:flex;
+    flex-direction:column;
+    align-items:flex-end;
+    justify-content:left ;
+    width: 850px;
+}
+.container3 {
+    margin: auto;
+    display:flex;
+    flex-direction:column;
+    align-items:flex-end;
+    justify-content:left ;
+    width: 860px;
+}
+.container4 {
+    margin: auto;
+    display:flex;
+    flex-direction:column;
+    align-items:flex-end;
+    justify-content:left ;
+    width: 1280px;
+}
+.boton{
+    background-color: #45de70;
+    color: white;
+    font-weight: 200;
+    font-size: 14pt;
+    text-align: center;
+    padding: 10px;
+    border-top: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+}
+label input {
+    width: 90%;
+    background-color: #b2afaf; 
+    border: 2px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 12pt;
+    transition: background-color 0.2s, border 0.2s, box-shadow 0.2s;
+}
+
+label input:hover {
+    background-color: #454045;
+    border: solid 1px #f3f3f4;
+    box-shadow: 0 0 4px #eb50ff4f;
+}
+.section-inputs {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 5px;
+}
+
+
