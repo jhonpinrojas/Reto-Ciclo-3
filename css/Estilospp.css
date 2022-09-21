@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+body {
+    font-family:'Playfair',sans-serif  ;
+    height: 200px;
+    background-color:#cac9c9;;
+    background-image:  url('../fotos/restaurante.png');
+    background-repeat:no-repeat;
+    background-size: 800px 900px;
+    border: 0px;
+    margin: 0px;
+  }
+ 
+  .contenedor{
+    background-color: #45de70;
+    color: white;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    height: 4rem;
+    border: 0px;
+    
+}
+    .alineacion {
+        background-color: antiquewhite;
+        opacity:0.9;
+        text-align:justify;
+        margin: auto;
+        margin-top :2rem;
+        margin-bottom: 2rem;
+        display: flex;
+        flex-direction: column;
+        flex-wrap:wrap ;
+        align-items: center;
+        justify-content: center;
+        border:none;
+        border-radius: 8px;
+        position: relative;
+        width: 40vw;
+    }
+    .boton{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        background-color: transparent;
+        border-radius: 1rem;
+    }
+    .favoritos{
+        color: #bbb;
+        background-color: antiquewhite;
+        border: none;
+        width: 2rem;
+        height: 2rem;
+        border-radius: 2px;
+        cursor: pointer;
+    }
+    .botonacepto{
+    
+        background-color: #45de70;
+        color: white;
+        font-weight: 600;
+        border: aquamarine;
+        border-radius: 10px;
+        cursor: pointer;
+        width: 200px;
+        height: 40px;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin: 10px;
+    }
+    .varios{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        font-size: 1.5rem;
+    }
+    .estrellas{
+        color: antiquewhite;
+        background-color: antiquewhite;
+        border: none;
+        height: 2rem;
+        border-radius: 2px;
+        cursor: pointer;
+        opacity:0.8 ;
+    }
+    .imputtext{
+        height: 2rem;
+        margin: 10px ; 
+        text-align: center ; 
+        border-radius: 8px;
+    }
+    .imagenplato
+    {
+        border: none;
+        width: 20rem;
+        height: 20rem;
+        border-radius: 6px;
+        cursor: pointer;
+    }

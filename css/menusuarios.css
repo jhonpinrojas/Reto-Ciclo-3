@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+html{
+    font-family:'Playfair',sans-serif  ;
+       display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0px;
+    background-color:#cac9c9; ;
+    background-image:  url('../fotos/restaurante.png') ;
+    background-repeat: no-repeat;
+    background-size: 60rem;
+}
+body{
+    border: 0px;
+    margin: 0px;
+}
+table{border-collapse:collapse;}
+th,tr,td{
+	border:2px solid #000;
+	width:30rem;
+	height:45px;
+	vertical-align:middle;
+	text-align:center;
+    background-color: antiquewhite;
+    opacity: 0.9;
+}
+th{
+	color:#fff;
+	background-color: #45de70;
+    border-radius: 3px;
+}
+
+tr:nth-child(odd) td{
+	background-color:antiquewhite;
+}
+.lista{
+    color: #bbb;
+    background-color: #eee;
+    border: none;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.contenedor{
+    background-color: #45de70;
+    color: white;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    height: 4rem;
+    border: 0px;
+    margin-bottom: 2rem;
+}
+.c1{
+    margin: auto    ;
+    width: 45rem;
+
+}
+.fotouser{
+    color: #bbb;
+    background-color: #eee;
+    border: none;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 2px;
+    cursor: pointer; 
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+}
+.descripcionusuario{
+    display: flex;
+    flex-direction: row;
+    align-items: center;   
+}
+.boton{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
+}
+.botonpago{
+    
+    background-color: #45de70;
+    color: #e8f0f0;
+    font-weight: 600;
+    border: aquamarine;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 200px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
